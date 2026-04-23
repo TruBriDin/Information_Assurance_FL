@@ -1,13 +1,13 @@
 ---
 tags: [quickstart, classification, tabular]
-dataset: [HIGGS]
+dataset: [Custom Yeast Dataset]
 framework: [xgboost]
 ---
 
 # Federated Learning with XGBoost and Flower (Quickstart Example)
 
 This example demonstrates how to perform EXtreme Gradient Boosting (XGBoost) within Flower using `xgboost` package.
-We use [HIGGS](https://archive.ics.uci.edu/dataset/280/higgs) dataset for this example to perform a binary classification task.
+We use *our custom yeast k-mer frequency* dataset for this example to perform a regression task, the dataset is available at: https://huggingface.co/datasets/SiivaDinh/yeast_kmer_splits.
 Tree-based with bagging method is used for aggregation on the server.
 
 This project provides a minimal code example to enable you to get started quickly. For a more comprehensive code example, take a look at [xgboost-comprehensive](https://github.com/adap/flower/tree/main/examples/xgboost-comprehensive).
